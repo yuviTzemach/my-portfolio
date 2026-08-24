@@ -55,3 +55,39 @@ body {
 .animate-blink {
   animation: blink 1s step-end infinite;
 }
+
+@media print {
+  :root {
+    --color-ink: #ffffff;
+    --color-surface: #f8fafc;
+    --color-surface-2: #f1f5f9;
+    --color-border: #cbd5e1;
+    --color-muted: #475569;
+    --color-accent: #0e7490;
+    --color-accent-2: #0369a1;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #111827;
+  }
+
+  header,
+  .bg-grid,
+  .animate-pulse,
+  .animate-blink {
+    display: none !important;
+  }
+
+  .text-glow {
+    text-shadow: none;
+  }
+
+  .text-white {
+    color: #0a0e17 !important;
+  }
+
+  section {
+    break-inside: avoid-page;
+  }
+}

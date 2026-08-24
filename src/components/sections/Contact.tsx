@@ -52,13 +52,6 @@ export default function Contact() {
           Download Resume (PDF)
         </a>
       </div>
-
-      <footer className="mx-auto mt-24 max-w-5xl border-t border-border pt-8 text-center font-mono text-xs text-muted">
-        <p>
-          Built with React, TypeScript &amp; Tailwind CSS ·{' '}
-          <span className="text-accent">{new Date().getFullYear()}</span>
-        </p>
-      </footer>
     </section>
   )
 }

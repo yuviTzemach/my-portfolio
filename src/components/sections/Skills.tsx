@@ -39,7 +39,9 @@ export default function Skills() {
               key={category.title}
               className="rounded-xl border border-border bg-surface p-5 transition-colors hover:border-accent/40"
             >
-              <h3 className="mb-3 font-mono text-xs uppercase tracking-[0.2em] text-accent">{category.title}</h3>
+              <h3 className="mb-3 font-mono text-xs uppercase tracking-[0.2em] text-accent">
+                {category.title}
+              </h3>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
                   <span

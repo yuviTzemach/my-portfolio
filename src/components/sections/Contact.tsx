@@ -7,11 +7,14 @@ export default function Contact() {
     <section id="contact" className="px-6 py-24">
       <div className="mx-auto max-w-2xl text-center">
         <p className="font-mono text-sm text-accent">console.log(</p>
-        <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">Let's build something together.</h2>
+        <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">
+          Let's build something together.
+        </h2>
         <p className="font-mono text-sm text-accent">)</p>
 
         <p className="mx-auto mt-4 max-w-md text-sm text-muted">
-          Open to new opportunities and interesting projects. Reach out through any of the channels below.
+          Open to new opportunities and interesting projects. Reach out through any of the channels
+          below.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

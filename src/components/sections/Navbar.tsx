@@ -30,7 +30,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <a href="#top" className="font-mono text-sm text-white">
           <span className="text-accent">&lt;</span>
-          Yuval Tzemach 
+          Yuval Tzemach
           <span className="text-accent">/&gt;</span>
         </a>
 

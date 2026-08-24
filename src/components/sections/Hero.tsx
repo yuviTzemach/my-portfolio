@@ -3,7 +3,10 @@ import { profile } from '@/data/resume'
 
 export default function Hero() {
   return (
-    <section id="top" className="relative flex min-h-[92vh] items-center justify-center overflow-hidden px-6 py-24">
+    <section
+      id="top"
+      className="relative flex min-h-[92vh] items-center justify-center overflow-hidden px-6 py-24"
+    >
       <div className="bg-grid pointer-events-none absolute inset-0 [mask-image:radial-gradient(ellipse_60%_60%_at_50%_30%,black,transparent)]" />
 
       <div className="relative mx-auto max-w-3xl text-center">
@@ -30,7 +33,10 @@ export default function Hero() {
           <span className="inline-flex items-center gap-1.5">
             <MapPin size={14} className="text-accent" /> {profile.location}
           </span>
-          <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-1.5 hover:text-accent">
+          <a
+            href={`mailto:${profile.email}`}
+            className="inline-flex items-center gap-1.5 hover:text-accent"
+          >
             <Mail size={14} className="text-accent" /> {profile.email}
           </a>
           <a

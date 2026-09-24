@@ -37,6 +37,30 @@ export default function Experience() {
                         </li>
                       ))}
                     </ul>
+                    {role.projects?.map((project) => (
+                      <div
+                        key={project.title}
+                        className="mt-5 rounded-lg border border-border bg-surface p-4"
+                      >
+                        <div className="mb-2 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                          <h5 className="text-sm font-semibold text-white">
+                            <span className="text-accent">Project:</span> {project.title}
+                          </h5>
+                          <span className="font-mono text-xs text-accent-2">{project.stack}</span>
+                        </div>
+                        <ul className="space-y-2">
+                          {project.bullets.map((bullet) => (
+                            <li
+                              key={bullet}
+                              className="flex gap-2 text-sm leading-relaxed text-muted"
+                            >
+                              <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-accent" />
+                              {bullet}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
                   </div>
                 ))}
               </div>

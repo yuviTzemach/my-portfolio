@@ -48,10 +48,17 @@ export const skillCategories: SkillCategory[] = [
   },
 ]
 
+export type Project = {
+  title: string
+  stack: string
+  bullets: string[]
+}
+
 export type Role = {
   title: string
   period: string
   bullets: string[]
+  projects?: Project[]
 }
 
 export type ExperienceGroup = {
@@ -76,14 +83,16 @@ export const experience: ExperienceGroup[] = [
           'Used AI tools, such as Claude Code and Cursor, to accelerate implementation, then reviewed, tested, and adapted generated code to fit project standards and production requirements.',
           'Managed the full development lifecycle in an Agile, Scrum environment, using Git, Jira, and Postman for version control, sprint tracking, and API testing, consistently driving on-time deployments.',
         ],
-      },
-      {
-        title: 'Project: RF Component Test Automation',
-        period: 'React, TypeScript, Python, MongoDB',
-        bullets: [
-          'Built the React and TypeScript interface for an automated RF test bench whose Python backend drives a spectrum analyzer and signal generator over SCPI, replacing a manual check repeated up to 100 times a day.',
-          "Designed the results view rendering the ~8 measurements per component as interactive graphs, backed by a MongoDB history for comparing a component's behavior across past runs by date.",
-          'Cut testing from 5-30 minutes of manual work per component to 30 seconds-5 minutes, and gave every technician one uniform standard.',
+        projects: [
+          {
+            title: 'RF Component Test Automation',
+            stack: 'React, TypeScript, Python, MongoDB',
+            bullets: [
+              'Built the React and TypeScript interface for an automated RF test bench whose Python backend drives a spectrum analyzer and signal generator over SCPI, replacing a manual check repeated up to 100 times a day.',
+              "Designed the results view rendering the ~8 measurements per component as interactive graphs, backed by a MongoDB history for comparing a component's behavior across past runs by date.",
+              'Cut testing from 5-30 minutes of manual work per component to 30 seconds-5 minutes, and gave every technician one uniform standard.',
+            ],
+          },
         ],
       },
       {

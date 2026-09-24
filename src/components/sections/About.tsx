@@ -4,7 +4,7 @@ import SectionHeading from '@/components/ui/SectionHeading'
 export default function About() {
   return (
     <section id="about" className="mx-auto max-w-3xl px-6 py-24">
-      <SectionHeading index="01" title="About Me" label="whoami" />
+      <SectionHeading index="01" title="About Me" label="who am i" />
 
       <div className="rounded-xl border border-border bg-surface p-6 sm:p-8">
         <div className="mb-4 flex gap-1.5">

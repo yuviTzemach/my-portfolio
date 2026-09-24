@@ -1,6 +1,6 @@
 # Yuval Tzemach — Developer Portfolio
 
-Personal portfolio site for **Yuval Tzemach**, Full Stack Developer.
+Personal portfolio site for **Yuval Tzemach**, Software Engineer.
 
 **Live demo:** https://yuvitzemach.github.io/my-portfolio/
 

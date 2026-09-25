@@ -43,9 +43,7 @@ export default function Experience() {
                         className="mt-5 rounded-lg border border-border bg-surface p-4"
                       >
                         <div className="mb-2 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-                          <h5 className="text-sm font-semibold text-white">
-                            <span className="text-accent">Project:</span> {project.title}
-                          </h5>
+                          <h5 className="text-sm font-semibold text-white">{project.title}</h5>
                           <span className="font-mono text-xs text-accent-2">{project.stack}</span>
                         </div>
                         <ul className="space-y-2">

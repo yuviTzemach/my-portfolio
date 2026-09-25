@@ -85,7 +85,7 @@ export const experience: ExperienceGroup[] = [
         ],
         projects: [
           {
-            title: 'RF Component Test Automation',
+            title: 'RF Component Test Automation Project',
             stack: 'React, TypeScript, Python, MongoDB',
             bullets: [
               'Built the React and TypeScript interface for an automated RF test bench whose Python backend drives a spectrum analyzer and signal generator over SCPI, replacing a manual check repeated up to 100 times a day.',

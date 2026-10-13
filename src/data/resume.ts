@@ -36,7 +36,14 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: 'Backend & Databases',
-    skills: ['Node.js', 'Express', 'MongoDB', 'REST APIs', 'Object-Oriented Programming'],
+    skills: [
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'REST APIs',
+      'WebSockets',
+      'Object-Oriented Programming',
+    ],
   },
   {
     title: 'AI Tools',
@@ -115,5 +122,5 @@ export const education = {
 
 export const languages = [
   { name: 'Hebrew', level: 'Native' },
-  { name: 'English', level: 'Professional Proficiency' },
+  { name: 'English', level: 'Native' },
 ]
